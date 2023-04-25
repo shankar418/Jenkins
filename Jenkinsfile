@@ -17,5 +17,10 @@ pipeline {
                 echo 'Hello Diploy stage'
             }
 	}
+	stage('Diploy-1') {
+            steps {
+                echo 'Hello Diploy-1 stage'
+            }
+        }
  	}
 }
