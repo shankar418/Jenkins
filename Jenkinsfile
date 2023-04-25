@@ -1,5 +1,5 @@
 pipeline {
-    agent prod
+    agent test
 
     stages {
         stage('Build') {
