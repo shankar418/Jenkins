@@ -31,6 +31,7 @@ pipeline {
                  sh "sudo docker image tag demo-image demo-image:${BUILD_NUMBER}"
                  sh "sudo docker image tag demo-image shankar418/demo-image:${BUILD_NUMBER}"
                  sh "sudo docker image push shankar418/demo-image:${BUILD_NUMBER}" 
+                 sh "date"
                } 
              }  
           }
